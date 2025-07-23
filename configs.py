@@ -40,7 +40,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "839f282133fe8ee79b4a946095cf4360")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","8103634300:AAHHTRV05-5WNDLJuMtiz7VyCNXtHbeEqC8")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "HP_RajFileStoreBot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002894568261))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002894568261"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "8005648537"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Hanuman:hanuman@cluster0.l5toshc.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002611366051")
